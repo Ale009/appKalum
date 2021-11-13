@@ -17,7 +17,7 @@ export default function Navigation() {
             </Navbar.Toggle>
             <Navbar.Collapse id="main-menu">
                 <Nav className="mr-auto">
-                    {loggedIn && <Nav.Link>Clases</Nav.Link>}                                        
+                    {loggedIn && <Nav.Link as = { NavLink } to = "/clases">Clases</Nav.Link>}                                        
                 </Nav>                
                 <Nav>
                     {
