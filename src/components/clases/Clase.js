@@ -15,7 +15,7 @@ export default function Clase({claseData}) {
         </Card.Header>
         <Card.Body>
             <Card.Title>
-                <Link>Clase: {claseData.descripcion}</Link>
+                <Link to={`/asignacion-clase/${claseData.claseId}`}>Clase: {claseData.descripcion}</Link>
             </Card.Title>
             <Card.Text>
                 Ciclo: {claseData.ciclo}

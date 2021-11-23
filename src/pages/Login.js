@@ -17,7 +17,7 @@ export default function Login() {
 
     useEffect(() => {
         if(loggedIn){
-            history.push('/carreras-tecnicas');
+            history.push('/kinal');
         }   
     });
 
